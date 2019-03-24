@@ -58,6 +58,28 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define MIN_GREEN_TIME_Pin GPIO_PIN_3
+#define MIN_GREEN_TIME_GPIO_Port GPIOE
+#define WALK_INTERVAL_Pin GPIO_PIN_4
+#define WALK_INTERVAL_GPIO_Port GPIOE
+#define OUT_OF_SERVICE_Pin GPIO_PIN_5
+#define OUT_OF_SERVICE_GPIO_Port GPIOE
+#define YELLOW_LAMP_Pin GPIO_PIN_2
+#define YELLOW_LAMP_GPIO_Port GPIOC
+#define GREEN_LAMP_Pin GPIO_PIN_4
+#define GREEN_LAMP_GPIO_Port GPIOC
+#define BUTTON1_Pin GPIO_PIN_2
+#define BUTTON1_GPIO_Port GPIOB
+#define BUTTON1_EXTI_IRQn EXTI2_IRQn
+#define RED_LAMP_Pin GPIO_PIN_14
+#define RED_LAMP_GPIO_Port GPIOB
+#define BUTTON2_Pin GPIO_PIN_15
+#define BUTTON2_GPIO_Port GPIOB
+#define BUTTON2_EXTI_IRQn EXTI15_10_IRQn
+#define WALK_SYMBOL_Pin GPIO_PIN_12
+#define WALK_SYMBOL_GPIO_Port GPIOD
+#define DONT_WALK_SYMBOL_Pin GPIO_PIN_13
+#define DONT_WALK_SYMBOL_GPIO_Port GPIOD
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
