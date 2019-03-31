@@ -15,7 +15,7 @@ Traffic Light Controller for pedestrain crossing
 * TLC-08	Controller shall have local operator panel for configuring its settings
 
 
-## Traffic Light Controller
+## Server Motor Controller
 Servo motor controller supporting multiple interfaces.
 
 * Create an MDK-ARM project with STM32CubeMX
