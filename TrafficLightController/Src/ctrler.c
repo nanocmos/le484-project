@@ -76,9 +76,9 @@ uint32_t Ctrler_Exec(Event_t evt)
 					  }
 						break;
 				case OUT_OF_SERVICE:
-						if (evt == MODE_CHANGE) {
-							Ctrler_State = RESTART;
-						}
+//						if (evt == MODE_CHANGE) {
+//							Ctrler_State = RESTART;
+//						}
 					  break;
         default:
             Ctrler_State = OUT_OF_SERVICE;
