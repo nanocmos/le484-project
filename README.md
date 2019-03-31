@@ -13,3 +13,18 @@ Traffic Light Controller for pedestrain crossing
 * TLC-06	Controller shall maintain the status of through traffic based on the minimum green period
 * TLC-07	Controller shall alert drivers and pedestrian about irregular operations by flashing lamps
 * TLC-08	Controller shall have local operator panel for configuring its settings
+
+
+## Traffic Light Controller
+Servo motor controller supporting multiple interfaces.
+
+* Create an MDK-ARM project with STM32CubeMX
+* Write a function for DIPSW1 to generate PDM (pulse duration modulation) signal
+* Write a function for DIPSW2 to capture pulse width 
+* Write a function for DIPSW2 to capture pulse width 
+* Write a function for DIPSW4 to read voltage
+* Write a function for SW2 to send UART messages
+* Write a function for SW3 to receive UART messages
+* Write code for main loop 
+
+
